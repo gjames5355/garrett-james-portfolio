@@ -45,6 +45,10 @@ footer {
   flex-direction: column;
 }
 
+.nav-title {
+  flex: 2;
+}
+
 .nav-title a {
   display: block;
   color: #174460;
@@ -86,6 +90,10 @@ footer {
 .sub-head {
   margin-bottom: 10px;
   font-weight: 300;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 
@@ -153,7 +161,7 @@ footer {
 
 .rectangle {
   margin: 10px auto;
-  height: 222px;
+  min-height: 222px;
   width: 506px;
   border-radius: 6px;
   background-color: #FFFFFF;
@@ -189,6 +197,7 @@ footer {
 
 .fab span {
   font-size: .3em;
+  display: block;
 }
 
 
@@ -245,7 +254,6 @@ footer {
     align-items: center;
   }
 
-
   .sec2-li {
     margin: 0 60px 10px 10px;
     display: inline-block;
@@ -290,8 +298,21 @@ footer {
 }
 
 @media (min-width: 1025px) {
+
+  .nav-title {
+    flex: 3;
+  }
+
+  .nav-li {
+    flex: 1;
+  }
+
   .skills-container {
     flex-direction: row;
+  }
+
+  .rectangle {
+    min-height: 350px;
   }
 
   .description,
