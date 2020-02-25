@@ -1,27 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Garrett James Portfolio wireframe</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio | Garrett James</title>
+    <link rel="icon" href="images/logo-icon.png" />
+    <meta name="description" content="Portfolio of Garrett James">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body>
-  <nav role="navigation">Nav</nav>
-  <main role="main">
-    <header role="banner">
-      <h1>Garrett James</h1>
-    </header>
-    <section>Quiz App</section>
-    <section>Skills</section>
-    <section>About Me</section>
-  </main>
-  <footer role="contentinfo">Contact</footer>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8f9264716.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
 
-</body>
+  <body>
+    <ul class="nav-bar">
+      <li class="nav-title"><a href="#hero">GARRETT JAMES</a></li>
+      <li class="nav-li"><a href="#">Contact</a></li>
+      <li class="nav-li"><a href="#">About Me</a></li>
+      <li class="nav-li"><a href="#">Skills</a></li>
+      <li class="nav-li"><a href="#work">Recent Work</a></li>
+    </ul>
+    <main>
+      <header id="hero" class="hero">
+        <h2 class='sub-head'> The Myth. The Man. The Dev. </h2>
+        <h1 aria-live="polite" class="name">GARRETT JAMES</h1>
+        <h2 class='sub-head'> Dedicated to an <span>optimal</span> user experience.</h2>
+      </header>
 
-</html>
+      <section id="work" aria-live="polite" class="projects">
+        <h2 aria-live="polite" class="work">Recent Work</h2>
+        <a target="_blank" href="https://gjames5355.github.io/garrett-quiz-app/">
+          <img src="./img/quiz-app-image.png" alt="How I Met Your Mother quiz" class="project-image">
+        </a>
+        <h2 class='sec-sub'>How I Met Your Mother Quiz</h2>
+        <p class="description">Trivia application that tests your knowledge of the TV show How I Met Your Mother.</p>
+        <div class="button-container">
+          <a target="_blank" class="button project-button"
+            href="https://gjames5355.github.io/garrett-quiz-app/">Demo</a>
+          <a target="_blank" class="button project-button"
+            href="https://github.com/gjames5355/garrett-quiz-app">GitHub</a>
+        </div>
+
+      </section>
+      <section id="skills" aria-live="polite" class="projects">
+        <h2 aria-live="polite" class="work">Skills</h2>
+        <div class="skills-container">
+          <div class="rectangle">
+            <h2 class="skill-title">Languages</h2>
+            <div class="section2-ul">
+              <i class="fab fa-html5"><span>HTML5</span></i>
+              <i class="fab fa-css3-alt"><span>CSS3</span></i>
+              <i class="fab fa-js"><span>Javascript</span></i>
+            </div>
+          </div>
+          <div class="rectangle">
+            <h2 class="skill-title">Frameworks</h2>
+            <div class="section2-ul">
+              <i class="fab fa-bootstrap"><span>Bootstrap 4</span></i>
+              <i class="fab fa-node"><span>Node JS</span></i>
+              <i class="fab fa-angular"><span>Angular</span></i>
+            </div>
+          </div>
+          <div class="rectangle">
+            <h2 class="skill-title">Libraries</h2>
+            <div class="section2-ul">
+              <i class="fab fa-react"><span>React</span></i>
+            </div>
+          </div>
+          <div class="rectangle">
+            <h2 class="skill-title">Databases</h2>
+            <div class="section2-ul">
+              <img src="./img/MongoDB_Logo.png" alt="MongoDB" class="mongo-logo">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" aria-live="polite" class="projects">
+        <h2 aria-live="polite" class="about-me">About Me</h2>
+        <img src="./img/GLJ-portrait-portfolio.png" alt="GLJ" class="aboutImg">
+        <p class="about-copy">I am a reformed strategic business development professional <span>turned developer</span>,
+          dedicated to a
+          beautiful, <span>optimal</span> user experience</p>
+      </section>
+    </main>
+    <footer aria-live="polite">
+      <ul class="footer-ul">
+        <li class="foot-li"><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li class="foot-li"><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="foot-li"><a href="mailto:garrettjames55@gmail.com/" target="_blank"><i
+              class="fas fa-envelope"></i></a></li>
+      </ul>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+  </html>
