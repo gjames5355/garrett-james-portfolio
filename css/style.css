@@ -85,7 +85,7 @@ footer {
 
 .name {
   /* color: #84E296; */
-  color: #8ae284;
+  color: #18db0b;
   letter-spacing: 9.3px;
   font-size: 3em;
 }
@@ -104,7 +104,7 @@ footer {
 .work,
 .skills,
 .about-me {
-  color: #8ae284;
+  color: #18db0b;
   letter-spacing: 6px;
   font-size: 2em;
   margin-bottom: 1em;
@@ -232,8 +232,6 @@ footer {
   }
 
   .name {
-    color: #84E296;
-    letter-spacing: 9.3px;
     font-size: 2em;
   }
 
@@ -246,7 +244,6 @@ footer {
   .work,
   .skills,
   .about-me {
-    color: #84E296;
     letter-spacing: 2px;
     font-size: 1.5em;
     margin-bottom: 1em;
