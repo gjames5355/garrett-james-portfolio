@@ -43,6 +43,8 @@ footer {
   background-color: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-title {
@@ -155,10 +157,6 @@ footer {
 }
 
 /* SKILLS */
-.skills-container {
-  /* margin: auto; */
-}
-
 .rectangle {
   margin: 10px auto;
   min-height: 222px;
@@ -227,19 +225,72 @@ footer {
 
 @media screen and (min-width: 300px) {
 
-  .sec2-li {
-    margin-right: 0px;
-    margin-left: 0px;
+  .hero {
+    width: 100%;
+    margin: 0;
   }
 
-  .third-li {
-    margin-left: 10px;
+  .name {
+    color: #84E296;
+    letter-spacing: 9.3px;
+    font-size: 2em;
+  }
+
+  .sub-head {
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  /* Recent Work */
+  .work,
+  .skills,
+  .about-me {
+    color: #84E296;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 3em;
+    text-transform: uppercase;
+  }
+
+  .sec-sub {
+    text-transform: none;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .rectangle {
+    width: 300px;
   }
 
   .button {
     padding: 10px;
   }
 
+  .about-copy {
+    font-size: 1em;
+  }
+
+  .fab,
+  .fas {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 568px) and (orientation: landscape) {
+  .nav-bar {
+    flex-direction: row;
+  }
+
+  body {
+    margin-top: 150px;
+  }
 }
 
 @media screen and (min-width: 769px) {
