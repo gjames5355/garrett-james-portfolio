@@ -70,7 +70,7 @@ footer {
 
 .nav-li a:hover,
 .nav-title a:hover {
-  color: #84E296;
+  color: #155B23;
 }
 
 .nav-title a,
@@ -85,7 +85,7 @@ footer {
 
 .name {
   /* color: #84E296; */
-  color: #18db0b;
+  color: #155B23;
   letter-spacing: 9.3px;
   font-size: 3em;
 }
@@ -104,7 +104,7 @@ footer {
 .work,
 .skills,
 .about-me {
-  color: #18db0b;
+  color: #155B23;
   letter-spacing: 6px;
   font-size: 2em;
   margin-bottom: 1em;
