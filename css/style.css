@@ -171,10 +171,6 @@ footer {
   padding-top: 20px;
 }
 
-.mongo-logo {
-  width: 40%;
-}
-
 /* ABOUT */
 
 .aboutImg {
@@ -187,11 +183,18 @@ footer {
   margin-top: 1em;
 }
 
-.fab,
-.fas {
+.devicon-react-original-wordmark,
+.devicon-vuejs-plain-wordmark,
+.devicon-nodejs-plain,
+.devicon-bootstrap-plain-wordmark,
+.devicon-express-original-wordmark,
+.devicon-postgresql-plain-wordmark,
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-mongodb-plain-wordmark{
   font-size: 3em;
   margin: 15px;
-  color: #174460;
 }
 
 .fab span {
